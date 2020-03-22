@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="5dip">
+
+    <TextView
+        android:id="@+id/tv_num_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="105dp"
+        android:padding="25dp"
+        android:text='много много букафффффффффффффффф'
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#040404"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <ImageView
+        android:id="@+id/iv_num_item"
+        android:padding="10dp"
+        android:layout_width="105dp"
+        android:layout_height="100dp"
+        android:visibility="visible"
+        app:srcCompat="@drawable/image" />
+
+</RelativeLayout>
